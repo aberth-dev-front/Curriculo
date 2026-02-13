@@ -6,7 +6,7 @@
 }
 body{
     min-height: 100vh;
-    background: linear-gradient(135deg, rgb(15, 32, 39), rgb(32, 58, 67), rgb(43, 84, 99));
+    background: linear-gradient(135deg, rgb(11, 16, 32),rgb(30, 53, 91));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,3 +74,4 @@ body{
     transform: translateY(-2px);
 
 }
+
