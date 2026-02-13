@@ -49,6 +49,15 @@ body{
     text-decoration: underline;
     color:rgb(130, 192, 255);
 }
+.git{
+    color: rgb(77, 163, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.git:hover{
+    text-decoration: underline;
+    color:rgb(130, 192, 255);
+}
 .voltar{
     display:inline-block;
     margin-top: 25px;
@@ -63,4 +72,5 @@ body{
 .voltar:hover{
     background: rgb(130, 192, 255);
     transform: translateY(-2px);
+
 }
