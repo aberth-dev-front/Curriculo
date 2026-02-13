@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(15, 32, 39), rgb(32, 58, 67), rgb(43, 84, 99));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.sobre-container{
+    width: 100%;
+    max-width: 600px;
+    background: rgba(106, 167, 255, 0.08);
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.sobre-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border:2px solid rgb(77, 163, 255);
+    border-radius: 10px;
+    background: rgba(77, 163, 255, 0.15);
+    color: rgb(207, 231, 255);
+}
+.sobre-container h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+}
+.sobre-container p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.email{
+    color: rgb(77, 163, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.email:hover{
+    text-decoration: underline;
+    color:rgb(130, 192, 255);
+}
+.voltar{
+    display:inline-block;
+    margin-top: 25px;
+    padding: 12px 22px;
+    background: rgb(77, 163, 255);
+    color:rgb(10, 26, 42);
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition:0.3s;
+}
+.voltar:hover{
+    background: rgb(130, 192, 255);
+    transform: translateY(-2px);
+}
